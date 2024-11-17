@@ -1,6 +1,7 @@
-## set Wezterm as default terminal
-very usefull if you wan to easily open terminal using shortcut eg. SUPER+T, if the terminal already has running client, pressing the shortcut will activate existing Wezterm client.
-[this script](./default-application.terminal.sh) can be used to by following command!
+## Set Wezterm as default terminal
+very usefull if you wan to easily open terminal using shortcut, eg., SUPER+T, if the terminal already has running client, pressing the shortcut will activate existing Wezterm client.
+
+[this script](./default-application.terminal.sh) can be applied by execute the following command!
 ```bash
 sudo curl -o /usr/bin/focus-wezterm https://raw.githubusercontent.com/Ichsan-T45/scripts/refs/heads/main/elementary-config/default-application.terminal.sh 
 sudo chmod a+x /usr/bin/focus-wezterm 
