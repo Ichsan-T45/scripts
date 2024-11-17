@@ -1,5 +1,5 @@
 #!/bin/bash
-WID=$(wmctrl -lx | grep -i "wezterm" | awk '{print $1}')
+WID=$(wmctrl -lx | grep -i "org.wezfurlong.wezterm" | awk '{print $1}')
 if [ -n "$WID" ]; then
     wmctrl -ia "$WID"
 else
